@@ -29,3 +29,34 @@ img {
     height: 1px;
     overflow: hidden;
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    flex-basis: 45%; /* Adjusts the width of the card */
+    text-align: left;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex-basis: 100%;
+    }
+}
