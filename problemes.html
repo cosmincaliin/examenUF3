@@ -15,11 +15,11 @@
 
 <body>
     <header>
-        <h1>El problema dels tres cossos</h1>
+        <h1 id="main-title">El problema dels tres cossos</h1>
     </header>
-    <main>
-        <section>
-            <h2>Introducció al Problema dels Tres Cossos</h2>
+    <main aria-labelledby="main-title">
+        <section aria-labelledby="section1-title">
+            <h2 id="section1-title">Introducció al Problema dels Tres Cossos</h2>
             <p>El problema dels tres cossos és un problema fonamental en mecànica celeste que consisteix a determinar
                 les trajectòries de tres masses puntuals que interactuen a través de la força de gravetat. Va ser
                 plantejat per primera vegada per Isaac Newton, però no es va poder resoldre de manera analítica.</p>
@@ -31,18 +31,21 @@
             <p>El problema dels tres cossos pot donar lloc a diversos fenòmens interessants:
                 Captura temporal, col·lisions, o fins i tot expulsions de cossos del sistema.</p>
 
-            <img src="img/DALLE-GeneratedImage.webp" alt="Un grup divers de persones, inclòs un home amb cadira de rodes, una dona que utilitza llenguatge de signes i una altra persona amb un gos guia, es reuneixen en un espai d'oficina modern. L'escena està dissenyada per destacar l'accessibilitat, mostrant rampes, portes amples i senyalització en braille. L'oficina té grans finestrals que permeten molta llum natural, i hi ha plantes al voltant per crear un ambient agradable. La gent està interactuant positivament, mostrant un entorn de treball solidari i inclusiu." width="400" height="400" />
+            <img src="img/DALLE-GeneratedImage.webp"
+                alt="Un grup divers de persones, inclòs un home amb cadira de rodes, una dona que utilitza llenguatge de signes i una altra persona amb un gos guia, es reuneixen en un espai d'oficina modern. L'escena està dissenyada per destacar l'accessibilitat, mostrant rampes, portes amples i senyalització en braille. L'oficina té grans finestrals que permeten molta llum natural, i hi ha plantes al voltant per crear un ambient agradable. La gent està interactuant positivament, mostrant un entorn de treball solidari i inclusiu."
+                width="400" height="400" />
         </section>
 
-        <section>
-            <h2>Implicacions Culturals i Mediàtiques</h2>
-            <p>Relacionat:</p>
-            <table>
-                <caption>Impacte cultural del problema dels tres cossos</caption>
-                <tr>
-                    <th>Aspecte</th>
-                    <th>Descripció</th>
-                </tr>
+        <section aria-labelledby="section2-title">
+            <h2 id="section2-title">Implicacions Culturals i Mediàtiques</h2>
+            <table aria-describedby="descTable1">
+                <caption id="descTable1">Impacte cultural del problema dels tres cossos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Aspecte</th>
+                        <th scope="col">Descripció</th>
+                    </tr>
+                </thead>
                 <tr>
                     <td>Un autor xinès</td>
                     <td>Liu Cixin és l'autor de la trilogia de ciència ficció coneguda com "El problema dels tres
@@ -59,8 +62,8 @@
             <a href="webfalsa.3cossos">Més informació aquí</a>
         </section>
 
-        <section>
-            <h2>Universos Paral·lels i Multidimensió</h2>
+        <section aria-labelledby="section3-title">
+            <h2 id="section3-title">Universos Paral·lels i Multidimensió</h2>
             <p>El concepte d'universos paral·lels i multidimensió és una idea fascinant que ha estat objecte
                 d'investigació en física teòrica i cosmologia. Aquests conceptes es refereixen a l'existència de més
                 d'un univers o realitats alternatives que poden coexistir amb el nostre univers.</p>
@@ -75,7 +78,7 @@
 
             <a href="webtambefalsa.oa">Més informació aquí</a>
         </section>
-        <button>Vols jugar?</button>
+        <button aria-label="Inicia el joc">Vols jugar?</button>
     </main>
 </body>
 
