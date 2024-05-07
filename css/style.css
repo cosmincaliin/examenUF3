@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */   
+}
+body {
+    background-color: white; /* Color de fondo del cuerpo */
+    color: rgb(30, 30, 30); /* Color del texto */
+    font-family: Arial, sans-serif; /* Tipografía */
+    margin: 0;
+    padding: 0;
+}
+main {
+    max-width: 800px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado */
+    background-color: #f0f0f0; /* Color de fondo del contenido principal */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra sutil */
+    border-radius: 8px; /* Bordes redondeados */
+}
+img {
+    max-width: 100%; /* Hace que las imágenes sean responsivas */
+    height: auto;
+}
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
